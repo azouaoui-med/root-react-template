@@ -1,0 +1,30 @@
+#facts {
+  .facts-container {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    &:before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: #003267;
+      opacity: 0.8;
+    }
+    .facts-icon {
+      font-size: 2.5rem;
+      color: #248eff;
+    }
+    .facts-counter {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    .facts-title {
+    }
+  }
+}

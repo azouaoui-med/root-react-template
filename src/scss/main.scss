@@ -1,0 +1,50 @@
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+@import './partials/header';
+@import './partials/home';
+@import './partials/about';
+@import './partials/services';
+@import './partials/facts';
+@import './partials/footer';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+.section-header {
+  .section-title {
+    font-weight: bold;
+    color: #4e4e4e;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin-bottom: 2rem;
+    span {
+      color: #248eff;
+    }
+    &:after {
+      content: '';
+      content: '';
+      display: block;
+      height: 3px;
+      width: 70px;
+      background: #248eff;
+      position: absolute;
+      top: 45px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .section-subtitle {
+    max-width: 700px;
+    color: #6f6f6f;
+    font-size: 0.9rem;
+  }
+}

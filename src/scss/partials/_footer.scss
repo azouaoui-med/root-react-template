@@ -1,0 +1,36 @@
+footer {
+  background: #292f35;
+  .footer-title {
+    position: relative;
+    margin-bottom: 2rem;
+    &:after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      width: 50px;
+      height: 2px;
+      background: #248eff;
+      top: 30px;
+    }
+  }
+  .bottom-footer {
+    background-color: #181d21;
+    color: #6c757d;
+  }
+  .quick-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    a {
+      text-decoration: none;
+      font-size: 0.9rem;
+      display: inline-block;
+      padding: 0.4rem 0;
+      color: #6c757d !important;
+      &:hover {
+        color: lighten(#6c757d, 20%) !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+#services {
+  background-color: #f6f8fb;
+}
+.service-box {
+  padding: 2rem;
+  border: 1px solid #eef1f5;
+  // box-shadow: 2px 2px 4px #e9ebef;
+  margin-bottom: 1rem;
+  background: white;
+  .service-icon {
+    font-size: 2rem;
+    color: #248eff;
+  }
+  .service-body {
+    .service-title {
+      font-size: 1.1rem;
+      color: #4e4e4e;
+      margin-bottom: 1.2rem;
+    }
+    .service-description {
+      font-size: 0.9rem;
+      color: #6f6f6f;
+    }
+  }
+}
