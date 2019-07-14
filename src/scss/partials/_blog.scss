@@ -1,0 +1,16 @@
+#blog {
+  .card {
+    box-shadow: 0 10px 30px 0 rgba(50, 50, 50, 0.16);
+    border: none;
+    .card-title {
+      font-size: 1rem;
+      font-weight: bolder;
+      color: #4e4e4e;
+      text-transform: uppercase;
+    }
+    .card-text {
+      font-size: 0.9rem;
+      color: #6f6f6f;
+    }
+  }
+}
