@@ -3,6 +3,7 @@ A responsive template for building websites with React and Bootstrap
 
 
 ## Demo
+[Live preview](https://root-template.netlify.com/)
 
 ## Screenshot
 
